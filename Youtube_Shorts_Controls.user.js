@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Youtube Shorts Controls
 // @namespace    Invertex
-// @version      0.2
+// @version      0.21
 // @description  Allow direct control of Shorts' time and cleanup interface.
 // @author       Invertex
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
@@ -70,8 +70,8 @@ input[aria-label="video time scrubber"] {
     padding-bottom: 0px !important;
 }
 .html5-main-video::-webkit-media-controls-timeline {
-    padding: 0px 0px 20px !important;
-    padding-bottom: 0px !important;
+	height: 0.6em;
+    padding: 0px !important;
 }
 #channel-container.ytd-reel-player-header-renderer,.title.ytd-reel-player-header-renderer  {
     visibility: visible !important;
